@@ -8,7 +8,6 @@ import android.os.Bundle
 import android.provider.MediaStore
 import android.widget.Button
 import android.widget.ImageView
-import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
@@ -35,7 +34,6 @@ class MainActivity2 : AppCompatActivity() {
 
         imgPhoto = findViewById(R.id.imgPhoto)
         val btTakePhoto: Button = findViewById(R.id.btTakePhoto)
-        findViewById(R.id.reset)
 
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, arrayOf(Manifest.permission.CAMERA), permissionRequestCamera)

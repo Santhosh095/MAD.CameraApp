@@ -31,6 +31,7 @@ class MainActivity2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
+        supportActionBar?.hide()
 
         imgPhoto = findViewById(R.id.imgPhoto)
         val btTakePhoto: Button = findViewById(R.id.btTakePhoto)

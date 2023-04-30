@@ -67,5 +67,5 @@
         app:layout_constraintVertical_bias="0.453"
         app:shapeAppearanceOverlay="@style/roundImageView1"
         tools:ignore="ImageContrastCheck"
-        tools:srcCompat="@drawable/defaultPic" />
+        tools:srcCompat="@drawable/defaultpic" />
 </androidx.constraintlayout.widget.ConstraintLayout>

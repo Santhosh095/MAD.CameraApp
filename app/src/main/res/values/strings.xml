@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Camera App</string>
+    <string name="Welcome_text">Android Studio\nCamera App</string>
+    <string name="credits">Designed By Santhosh S 200701221 REC\nMobile Application Development Laboratory</string>
+    <string name="get_started">Get Started</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="reset">Reset?</string>
+    <string name="hello_again">Hello again!</string>
+    <string name="send">Take photo</string>
+    <string name="welcome3">Capture and View Your Image.</string>
+</resources>
